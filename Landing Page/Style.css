@@ -91,7 +91,7 @@ nav {
 }
 
 .dropbtn {
-    background-color: white;
+    background-color:transparent;
     color: #0a0a0a;
     padding: 10px 15px;
     font-size: 16px;
@@ -102,7 +102,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #de42ba 100%;
+    background-color: #de42ba ;
     min-width: 150px;
     z-index: 1;
 }
@@ -115,7 +115,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-    background-color: #555;
+    background-color: #feb65c;
 }
 
 .dropdown:hover .dropdown-content {
@@ -123,14 +123,14 @@ nav {
 }
 
 .buy-now-button a {
-    background-color: orange;
+    background-color: #feb65c;
     color: #fff;
     padding: 17px;
     text-decoration: none;
 }
 
 .buy-now-button a:hover {
-    background-color: darkorange;
+    background-color:#de42ba;
 }
 
 .search-icon {
