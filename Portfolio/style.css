@@ -208,51 +208,6 @@ a :hover {
 .contact-info a :hover{
     color: blue !important;
 }
-.Qualification ul li {
-    background: #f9f9ff;
-    position: relative;
-    margin: 0 auto;
-    width: 2px;
-    padding-bottom: 40px;
-    list-style-type: none;
-}
-.Qualification ul li:before {
-    content: '';
-    background: #8490ff;
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translateX(-50%);
-    width: 20px;
-    height: 20px;
-    border: 5px solid #eee;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-}
-.Qualification ul li .content {
-    background-color: white !important;
-    box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
-    position: relative;
-    top: 7px;
-    width: 360px;
-    padding: 30px;
-}
-.content h4 {
-    padding-bottom: 10px;
-    text-align: center;
-}
-.content p {
-    text-align: center;
-    margin-bottom: 5px;
-}
-.Qualification ul li:nth-child(even) .content {
-    left: calc(-360px - 45px);
-}
-.Qualification ul li:nth-child(odd) .content {
-    left: 50px;
-}
-
 .main {
     max-width: 1000px;
     margin: auto;
@@ -278,7 +233,6 @@ a :hover {
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
-    width: 33.33% !important;
     display: none; /* Hide all elements by default */
   }
   
@@ -298,22 +252,5 @@ a :hover {
   /* The "show" class is added to the filtered elements */
   .show {
     display: block;
-  }
-  
-  /* Style the buttons */
-  .btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #ddd;
-  }
-  
-  .btn.active {
-    background-color: #666;
-    color: white;
-  }
+  } 
+ 
