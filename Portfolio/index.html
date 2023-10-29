@@ -94,7 +94,8 @@
                         outcomes. I also have experties in computer skills; C, C++, Python, HTML & CSS, Javascript,
                         Kotlin-Dart, Flutter, MYSQL, WordPress.
                     </p>
-                    <a href="https://drive.google.com/file/d/1AVuJaof-Lf-D4XseZWL-_DmLgQcgZfQE/view?usp=drive_link" class="primary-btn text-uppercase">Resume</a>
+                    <a href="https://drive.google.com/file/d/1AVuJaof-Lf-D4XseZWL-_DmLgQcgZfQE/view?usp=drive_link"
+                        class="primary-btn text-uppercase">Resume</a>
                 </div>
             </div>
         </div>
@@ -215,112 +216,133 @@
                             </div>
                         </div>
                     </div>
+                    <div class="single-skill">
+                        <p>
+                            UI/UX 95%
+                        </p>
+                        <div class="skill progress-bar" data-width="95"
+                            style="position: relative; width: 100%; background-color: rgb(221, 221, 221); height: 30px;">
+                            <div class="sb_bar"
+                                style="position: absolute; width: 95%; height: 100%; background-color: rgb(51, 122, 183);">
+                                <div class="sb_label"
+                                    style="padding-left: 5px; line-height: 30px; color: rgb(255, 255, 255);"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-  
+
     <!-- projects Section -->
-    <section id="projects"style="padding: 120px 0; background: #f9f9ff;">
-    <div class="main" >
-        <div class="text text-center">
-            <h1>Projects</h1>
+    <section id="projects" style="padding: 120px 0; background: #f9f9ff;">
+        <div class="main">
+            <div class="text text-center">
+                <h1>Projects</h1>
+            </div>
+
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> All</button>
+                <button class="btn" onclick="filterSelection('web')"> Web Development</button>
+                <button class="btn" onclick="filterSelection('graphics')"> Graphic Designs</button>
+                <button class="btn" onclick="filterSelection('Python')"> Python</button>
+                <button class="btn" onclick="filterSelection('c_project')"> C Projects</button>
+                <button class="btn" onclick="filterSelection('ui_project')"> UI/UX Projects</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3 column  web">
+                    <div class="content text-center">
+                        <img src="assets/S Landing Page.png" alt="Web" style="width:100%;">
+                        <h4>Landing Page</h4>
+                        <p>Web Pages</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 column graphics">
+                    <div class="content text-center">
+                        <img src="assets/logo.png" alt="Graphics" style="width:150px; height:100%; ">
+                        <h4>Portfolio</h4>
+                        <p>Logo Designs</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 column Python">
+                    <div class="content text-center">
+                        <img src="assets/python.png" alt="Python Projects" style="width:auto; height:180px;">
+                        <h4>Python Projects</h4>
+                        <p>Python coding</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 column c_projects">
+                    <div class="content text-center">
+                        <img src="assets/cproj.png" alt="C Projects" style="width:auto; height:180px;">
+                        <h4>C Projects</h4>
+                        <p>C/C++/C# Based codings</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 column UI">
+                    <div class="content text-center">
+                        <img src="assets/Ui/Ux.png" alt="C Projects" style="width:auto; height:180px; padding:5%;">
+                        <a href="https://www.figma.com/proto/3hlydQDIDHUzdC5TOe2fEY/Untitled?type=design&node-id=1-27&t=guUQYdtfHX6FjMDo-0&scaling=scale-down&page-id=0%3A1"><h4>UI/UX</h4></a>
+                        <p>Designs</p>
+                    </div>
+                </div>
+                <!-- END GRID -->
+            </div>
+
+            <!-- END MAIN -->
         </div>
 
-        <div id="myBtnContainer">
-            <button class="btn active" onclick="filterSelection('all')"> All</button>
-            <button class="btn" onclick="filterSelection('web')"> Web Development</button>
-            <button class="btn" onclick="filterSelection('graphics')"> Graphic Designs</button>
-            <button class="btn" onclick="filterSelection('Python')"> Python</button>
-            <button class="btn" onclick="filterSelection('c_project')"> C Projects</button>
-        </div>
-
-        <!-- Portfolio Gallery Grid -->
-        <div class="row">
-            <div class="col-md-6 col-lg-3 column  web">
-                <div class="content text-center">
-                    <img src="assets/S Landing Page.png" alt="Web" style="width:100%;">
-                    <h4>Landing Page</h4>
-                    <p>Web Pages</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 column graphics">
-                <div class="content text-center">
-                    <img src="assets/logo.png" alt="Graphics" style="width:150px; height:100%; ">
-                    <h4>Portfolio</h4>
-                    <p>Logo Designs</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 column Python">
-                <div class="content text-center">
-                    <img src="assets/python.png" alt="Python Projects"style="width:auto; height:180px;">
-                    <h4>Python Projects</h4>
-                    <p>Python coding</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 column c_projects">
-                <div class="content text-center">
-                    <img src="assets/cproj.png" alt="C Projects" style="width:auto; height:180px;">
-                    <h4>C Projects</h4>
-                    <p>C/C++/C# Based codings</p>
-                </div>
-            </div>
-            <!-- END GRID -->
-        </div>
-
-        <!-- END MAIN -->
-    </div>
-        
         <script>
-        filterSelection("all")
-        function filterSelection(c) {
-          var x, i;
-          x = document.getElementsByClassName("column");
-          if (c == "all") c = "";
-          for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-          }
-        }
-        
-        function w3AddClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-          }
-        }
-        
-        function w3RemoveClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            filterSelection("all")
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
             }
-          }
-          element.className = arr1.join(" ");
-        }
-        
-        
-        // Add active class to the current button (highlight it)
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function(){
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-          });
-        }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
         </script>
-        
-</section>
+
+    </section>
     <!-- Services section -->
     <section id="services" style="padding: 50px 0;">
         <div class="container">
@@ -385,9 +407,8 @@
                             <h4>Editing</h4>
                         </a>
                         <p>
-                            Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the
-                            last
-                            two decades. There is a lot of argument.
+                            Our Generator will empower you to express your artistic vision most effectively. So, get
+                            ready to fuel your creativity and let your designs do the talking!
                         </p>
                     </div>
                 </div>
@@ -429,8 +450,17 @@
                     <div class="footer-widget">
                         <h4>About Me</h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium nobis omnis porro
-                            sapiente amet quidem fugiat.
+                            Determined and knowledgeable
+                            software developer who can think
+                            outside the box and
+                            enjoys working with diverse people.
+                            Focused, results-driven and
+                            knowledgeable in
+                            multiple computer languages. Seeking
+                            an opportunity to enhance various
+                            software
+                            packages and architect new software
+                            applications.
                         </p>
 
                     </div>

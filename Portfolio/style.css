@@ -253,4 +253,7 @@ a :hover {
   .show {
     display: block;
   } 
- 
+ .UI a{
+    text-decoration: none;
+    color: #777272 ;   
+}
